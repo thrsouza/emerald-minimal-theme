@@ -2,20 +2,20 @@
 
 <img src="https://raw.githubusercontent.com/thrsouza/emerald-theme/master/icon.png" width="140" />
 
-# Emerald Theme
+# Emerald Minimal Theme
 
 Deep midnight darks and crisp lights for VS Code, tied together by a single emerald glow.
 
-![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-dark-preview.png)
-
 ![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-light-preview.png)
+
+![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-dark-preview.png)
 
 </div>
 
 ## Variants
 
-- **Emerald Dark** — near-black midnight surfaces (`#050505` / `#0c0c0c` / `#111111`) with emerald accents throughout the UI.
-- **Emerald Light** — clean white surfaces with a deeper emerald accent (`#006b5e` / `#00b8a6`) tuned for contrast.
+- **Emerald Minimal Dark** — near-black midnight surfaces (`#050505` / `#0c0c0c` / `#111111`) with emerald accents throughout the UI.
+- **Emerald Minimal Light** — clean white surfaces with a deeper emerald accent (`#006b5e` / `#00b8a6`) tuned for contrast.
 
 ## Palette
 
@@ -32,12 +32,12 @@ Deep midnight darks and crisp lights for VS Code, tied together by a single emer
 ### From the Marketplace
 
 1. Open the **Extensions** view (`Ctrl/Cmd + Shift + X`).
-2. Search for **Emerald Theme**.
+2. Search for **Emerald Minimal Theme**.
 3. Click **Install**.
 
 ### Selecting the theme
 
-Open the Command Palette (`Ctrl/Cmd + K` then `Ctrl/Cmd + T`) or run **Preferences: Color Theme**, then pick **Emerald Dark** or **Emerald Light**.
+Open the Command Palette (`Ctrl/Cmd + K` then `Ctrl/Cmd + T`) or run **Preferences: Color Theme**, then pick **Emerald Minimal Dark** or **Emerald Minimal Light**.
 
 ## Development
 

@@ -1,6 +1,6 @@
 {
-    "name": "emerald-theme",
-    "displayName": "Emerald Theme",
+    "name": "emerald-minimal-theme",
+    "displayName": "Emerald Minimal Theme",
     "description": "Deep midnight darks and crisp light surfaces for VS Code, tied together by a single vivid emerald/teal glow — in dark and light variants.",
     "version": "1.0.0",
     "publisher": "thrsouza",
@@ -33,12 +33,12 @@
     "contributes": {
         "themes": [
             {
-                "label": "Emerald Dark",
+                "label": "Emerald Minimal Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/emerald-dark.json"
             },
             {
-                "label": "Emerald Light",
+                "label": "Emerald Minimal Light",
                 "uiTheme": "vs",
                 "path": "./themes/emerald-light.json"
             }
