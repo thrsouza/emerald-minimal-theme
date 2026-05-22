@@ -5,6 +5,13 @@ All notable changes to the **Emerald Minimal Theme** extension are documented in
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-05-22
+
+### Changed
+
+- Raised the minimum supported VS Code version (`engines.vscode`) from `^1.25.0` to `^1.70.0`, matching the UI areas the theme actually styles (sticky scroll, command center, inlay hints, merge-conflict regions).
+- Shrank the packaged extension from 2.2 MB to ~90 KB by optimizing the icon (1254×1254 → 256×256) and excluding preview images from the VSIX.
+
 ## [1.1.0] - 2026-05-21
 
 ### Added

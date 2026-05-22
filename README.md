@@ -6,26 +6,40 @@
 
 Deep midnight darks and crisp lights for VS Code, tied together by a single emerald glow.
 
-![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-light-preview.png)
-
-![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-dark-preview.png)
-
 </div>
 
 ## Variants
 
-- **Emerald Minimal Dark** — near-black midnight surfaces (`#050505` / `#0c0c0c` / `#111111`) with emerald accents throughout the UI.
-- **Emerald Minimal Light** — clean white surfaces with a deeper emerald accent (`#006b5e` / `#00b8a6`) tuned for contrast.
+### Emerald Minimal Light
 
-## Palette
+Soft off-white surfaces (`#f3f5f4`) paired with deep slate text (`#101828`) and a rich emerald accent (`#00b8a6`) tuned for readable, low-glare contrast.
 
-| Role            | Dark                  | Light                 |
-| --------------- | --------------------- | --------------------- |
-| Background      | `#050505` – `#111111` | `#ffffff` – `#f3f5f4` |
-| Foreground      | `#e5e5e5`             | `#101828`             |
-| Accent          | `#00d2be`             | `#00b8a6` / `#006b5e` |
-| Accent (bright) | `#4dffd9`             | `#00d2be`             |
-| Accent (deep)   | `#006b5e`             | `#006b5e`             |
+![preview-light](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-light-preview.png)
+
+### Emerald Minimal Dark
+
+Deep midnight surfaces (`#111111`) with calm light-gray text (`#e5e5e5`) and a bright emerald accent (`#00d2be`) that glows across the UI without straining the eyes.
+
+![preview-dark](https://raw.githubusercontent.com/thrsouza/emerald-theme/master/emerald-minimal-dark-preview.png)
+
+## Highlights
+
+- Fully styled interface — editor, sidebar, tabs, panels, status bar, and command palette.
+- Carefully tuned syntax highlighting for readability in both light and dark.
+- Matching integrated terminal, Git decorations, and diff colors.
+- Bracket pair colorization that stays subtle and on-theme.
+
+## Installation
+
+1. Open the **Extensions** view in VS Code (`Ctrl/Cmd+Shift+X`).
+2. Search for **Emerald Minimal Theme**.
+3. Click **Install**.
+
+## Activation
+
+1. Open the Command Palette (`Ctrl/Cmd+Shift+P`).
+2. Run **Preferences: Color Theme**.
+3. Pick **Emerald Minimal Dark** or **Emerald Minimal Light**.
 
 ## License
 

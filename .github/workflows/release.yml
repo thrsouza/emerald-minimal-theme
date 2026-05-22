@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   package:
-    name: Package and release VSIX
+    name: Package and publish
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,3 +35,13 @@ jobs:
         with:
           files: "*.vsix"
           generate_release_notes: true
+
+      - name: Publish to VS Code Marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: npx --yes @vscode/vsce publish --packagePath "$(ls *.vsix)"
+
+      - name: Publish to Open VSX
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: npx --yes ovsx publish "$(ls *.vsix)"

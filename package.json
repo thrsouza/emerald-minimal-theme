@@ -2,7 +2,7 @@
     "name": "emerald-minimal-theme",
     "displayName": "Emerald Minimal Theme",
     "description": "Deep midnight darks and crisp light surfaces for VS Code, tied together by a single vivid emerald/teal glow — in dark and light variants.",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "thrsouza",
     "license": "MIT",
     "repository": {
@@ -14,7 +14,7 @@
         "url": "https://github.com/thrsouza/emerald-theme/issues"
     },
     "engines": {
-        "vscode": "^1.25.0"
+        "vscode": "^1.70.0"
     },
     "categories": [
         "Themes"
