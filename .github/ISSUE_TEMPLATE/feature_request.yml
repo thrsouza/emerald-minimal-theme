@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement or new color choice for the theme
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion! Please describe what you'd like to see improved.
+  - type: dropdown
+    id: variant
+    attributes:
+      label: Theme variant
+      description: Which variant does this apply to?
+      options:
+        - Emerald Minimal Dark
+        - Emerald Minimal Light
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What would you like to change or add? Be as specific as you can.
+      placeholder: e.g. Add distinct coloring for regex literals so they stand out from strings.
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: What problem does this solve, or why would it improve the theme?
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Screenshots, mockups, color values, or examples from other themes.

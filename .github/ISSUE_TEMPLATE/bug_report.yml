@@ -1,0 +1,65 @@
+name: Bug report
+description: Report a color, contrast, or rendering issue in the theme
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please fill out the details below so it can be reproduced quickly.
+  - type: dropdown
+    id: variant
+    attributes:
+      label: Theme variant
+      description: Which variant shows the problem?
+      options:
+        - Emerald Minimal Dark
+        - Emerald Minimal Light
+        - Both
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What looks wrong? Describe the color, contrast, or rendering issue.
+      placeholder: e.g. Comments are nearly invisible against the editor background.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can the issue be seen?
+      placeholder: |
+        1. Open a file of type '...'
+        2. Look at '...'
+        3. The color '...' is hard to read
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language / file type
+      description: The programming language or file type where the issue appears, if relevant.
+      placeholder: e.g. TypeScript, Markdown, JSON
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop screenshots here. A picture makes color issues much easier to fix.
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      description: Found in Code → About Visual Studio Code.
+      placeholder: e.g. 1.96.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: e.g. macOS 15.2, Windows 11, Ubuntu 24.04
+    validations:
+      required: true
